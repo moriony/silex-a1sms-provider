@@ -1,5 +1,4 @@
 {
-    "minimum-stability": "dev",
     "name": "moriony/silex-a1sms-provider",
     "type": "library",
     "description":  "A1 Sms Market client service provider for the Silex framwork",
@@ -17,7 +16,7 @@
         "ext-curl" : "*",
         "pimple/pimple": "1.*",
         "silex/silex": "1.0.*",
-        "moriony/a1sms-client": "*"
+        "moriony/a1sms-client": "@dev"
     },
     "require-dev": {
         "satooshi/php-coveralls": "*",
